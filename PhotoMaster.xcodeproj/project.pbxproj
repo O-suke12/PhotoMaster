@@ -15,6 +15,7 @@
 		5307C89B246AE01F007F8052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307C899246AE01F007F8052 /* LaunchScreen.storyboard */; };
 		5307C8A6246AE01F007F8052 /* PhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307C8A5246AE01F007F8052 /* PhotoMasterTests.swift */; };
 		5307C8B1246AE01F007F8052 /* PhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5307C8B0246AE01F007F8052 /* PhotoMasterUITests.swift */; };
+		5307C8C0246AEDDE007F8052 /* furo_ducky.png in Resources */ = {isa = PBXBuildFile; fileRef = 5307C8BF246AEDDE007F8052 /* furo_ducky.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5307C8AC246AE01F007F8052 /* PhotoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5307C8B0246AE01F007F8052 /* PhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITests.swift; sourceTree = "<group>"; };
 		5307C8B2246AE01F007F8052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307C8BF246AEDDE007F8052 /* furo_ducky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = furo_ducky.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		5307C88D246AE01C007F8052 /* PhotoMaster */ = {
 			isa = PBXGroup;
 			children = (
+				5307C8BE246AEDDE007F8052 /* PhotoMaster素材 */,
 				5307C88E246AE01C007F8052 /* AppDelegate.swift */,
 				5307C890246AE01C007F8052 /* SceneDelegate.swift */,
 				5307C892246AE01C007F8052 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				5307C8B2246AE01F007F8052 /* Info.plist */,
 			);
 			path = PhotoMasterUITests;
+			sourceTree = "<group>";
+		};
+		5307C8BE246AEDDE007F8052 /* PhotoMaster素材 */ = {
+			isa = PBXGroup;
+			children = (
+				5307C8BF246AEDDE007F8052 /* furo_ducky.png */,
+			);
+			path = "PhotoMaster素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5307C8C0246AEDDE007F8052 /* furo_ducky.png in Resources */,
 				5307C89B246AE01F007F8052 /* LaunchScreen.storyboard in Resources */,
 				5307C898246AE01F007F8052 /* Assets.xcassets in Resources */,
 				5307C896246AE01C007F8052 /* Main.storyboard in Resources */,
@@ -435,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ6K9Z9DL9;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ6K9Z9DL9;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
